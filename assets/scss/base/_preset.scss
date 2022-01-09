@@ -6,3 +6,16 @@
     overflow: hidden;
     text-indent: -9999px;
 }
+
+// 가로스크롤 안보이게
+.scroll-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
