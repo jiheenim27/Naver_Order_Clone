@@ -371,3 +371,16 @@ textarea::-webkit-outer-spin-button {
   padding: 0px 4px;
   line-height: 46px;
 }
+
+.order-info-area {
+  padding: 10px 18px 20px;
+}
+
+.container {
+  padding-top: 94px;
+}
+
+.common-inner {
+  margin: 0 auto;
+  max-width: 720px;
+}
