@@ -1,5 +1,6 @@
 @import "./abstracts/variables_color";
 @import "./abstracts/variables";
+@import "./abstracts/mixin_common";
 
 @import "./base/reset";
 @import "./base/preset";
@@ -9,3 +10,6 @@
 @import "./components/order_info_area";
 
 @import "./pages/order_page";
+@import "./components/recent_order_area"
+
+
