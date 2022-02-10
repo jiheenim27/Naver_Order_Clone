@@ -19,3 +19,10 @@
         display: none;
     }
 }
+
+// 팝업시 뒷배경 스크롤 움직이지 않도록
+body.scroll-off {
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none ;
+}
