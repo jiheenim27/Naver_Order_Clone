@@ -7,7 +7,6 @@
     text-indent: -9999px;
 }
 
-// 가로스크롤 안보이게
 .scroll-x {
     overflow-x: auto;
     overflow-y: hidden;
@@ -20,9 +19,17 @@
     }
 }
 
-// 팝업시 뒷배경 스크롤 움직이지 않도록
 body.scroll-off {
     overflow: hidden;
     -ms-touch-action: none;
-    touch-action: none ;
+    touch-action: none;
+}
+
+// functional css
+.fw700 {
+    font-weight: 700;
+}
+
+.color-point {
+    color: $point-color;
 }

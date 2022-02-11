@@ -3,11 +3,11 @@
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 32px 0 40px;
+    border-radius: 16px 16px 0 0;
     background-color: #fff;
-    padding: 30px 0 40px;
     text-align: center;
     z-index: 10000;
-    border-radius: 16px 16px 0px 0px;
 
     .title {
         font-size: 20px;
@@ -17,11 +17,11 @@
 
     .type-list {
         display: flex;
-        margin-top: 32px;  
+        margin-top: 32px;
     }
 
     .type-item {
-        flex: 1; // 1:1로 균등 분할
+        flex: 1;
         & + .type-item {
             border-left: 1px solid $booking-color-border103;
         }
@@ -37,7 +37,7 @@
         margin-top: 8px;
         font-size: 15px;
         line-height: 1.5;
-        font-weight: 600;
+        font-weight: 600; 
         color: $booking-color-text1;
     }
 
@@ -51,5 +51,4 @@
         background-color: $booking-color-bg189;
         color: #fff;
     }
-
 }

@@ -1,6 +1,7 @@
 .menu-list-area {
     padding: 28px $m-padding 10px;
     background-color: #fff;
+
     &:not(.new):not(.popular) {
         margin-top: 10px;
     }
@@ -11,19 +12,21 @@
 
     &.is-closed {
         padding: 24px $m-padding;
-        .ico-arrow {
-            transform: rotate(180deg);
-        }
 
         & + .is-closed {
             margin-top: 0;
             border-top: 1px solid $booking-color-border144;
         }
 
+        .ico-arrow {
+            transform: rotate(180deg);
+        }
+
         .menu-list {
             display: none;
         }
     }
+
     .menu-category {
         display: flex;
         justify-content: space-between;
@@ -36,7 +39,7 @@
     }
 
     .title {
-        tab-size: 19px;
+        font-size: 19px;
         font-weight: 700;
         color: $booking-color-text100;
         letter-spacing: -0.3px;
@@ -46,16 +49,15 @@
         font-size: 14px;
         letter-spacing: -0.3px;
         color: $booking-color-text4;
-
         &::before {
             content: '';
             display: inline-block;
-            vertical-align: middle;
             margin: 0 10px;
             width: 4px;
             height: 4px;
             border-radius: 100%;
             background-color: #ededed;
+            vertical-align: middle;
         }
     }
 }
